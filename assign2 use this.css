@@ -1,0 +1,191 @@
+
+        *{
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        nav{
+            background-color: rgb(192, 42, 42);
+            height: 120px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        label.logo {
+            color: rgb(189, 219, 219);
+            font-size: 55px;
+            line-height: 120px;
+          
+            font-weight: bold;
+        }
+       li{
+        margin: 20px;
+        font-size: 20px;
+        
+       }
+    
+a.active,a:hover {
+    background: rgb(193, 195, 27);
+    transition: 0.5s;
+}
+a{
+    color: white;
+}
+
+/* 
+*/
+body{
+    background: white;
+    padding: 0px;
+    margin: 0px;
+
+  } 
+
+  .search-bar{
+    margin-right: 100px;
+    margin-top: 50px;
+    
+  }
+  .container{
+    width: 90%;
+    margin: 10px 90px;
+    /* border: 1px solid lightgrey; */
+    border-radius: 16px;
+    display: flex;
+  }
+  .card{
+    width: 400px;
+    border: 1px solid lightgrey;
+    padding: 20px;
+    margin: 10px;
+  }
+.card img{
+width: 100%;
+padding: 10px;
+}
+.card h3{
+    font-size: 20px;
+
+}
+.card p{
+
+}
+/* .card button{ 
+background-color: white;
+color: rgb(10, 10, 10);
+border-radius: 14px;
+align-items: center;
+}
+    */
+.container2{
+    width: 90%;
+    margin: 10px 90px;
+    /* border: 1px solid lightgrey; */
+    border-radius: 16px;
+    display: flex;
+  }
+  .card{
+    width: 400px;
+    border: 1px solid lightgrey;
+    padding: 20px;
+    margin: 10px;
+  }
+.card img{
+width: 100%;
+padding: 10px;
+}
+.card h3{
+
+}
+.card p{
+
+}
+  
+.container3{
+    width: 90%;
+    margin: 10px 90px;
+    /* border: 1px solid lightgrey; */
+    border-radius: 16px;
+    display: flex;
+  }
+  .card{
+    width: 400px;
+    border: 1px solid lightgrey;
+    padding: 20px;
+    margin: 10px;
+  }
+.card img{
+width: 100%;
+padding: 10px;
+}
+.card h3{
+text-align: center;
+}
+.card p{
+text-align: center;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+
+  
+ .footercontainer{
+width: 100%;
+/* height: 200px; */
+padding: 30px;
+background-color:rgb(200, 47, 47);
+margin: 0;
+ }
+ .logo1 {
+    position: relative;
+    top: 200px;
+    color: black;
+    font-size: 60px;
+ }
+ .logo1 label{
+    color: rgb(230, 19, 19);
+ }
+ 
+ .socialicons{
+    align-items: center;
+    /* text-align: center; */
+    /* display: inline-flexbox; */
+    position: relative;
+    left: 900px;
+    width: 40%;
+    bottom: -100px;
+    color: black;
+    font-size: 20px;
+
+ }
+ .socialicons a{
+    color: black;
+ }
+ .footercontainer logo{
+    position: relative;
+    left: 300px;
+ }
+.socialicons a{
+    display: flex;
+    padding: 10px;
+    
+}
+.footercontainer ul{
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+.footercontainer ul li a{
+    color: black;
+}
+
